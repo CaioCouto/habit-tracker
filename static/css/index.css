@@ -1,0 +1,100 @@
+body {
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+    color: #fff;
+    background: #09090A;
+}
+
+#header {
+    height: 25vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-button {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 1px solid #8B5CF6;
+    background: none;
+}
+
+.header-button:hover { cursor: pointer; }
+
+.header-button-txt { 
+    margin: 0;
+    display: none;
+    color: #fff;
+}
+
+#warning {
+    display: none;
+    color: #d81b1b;
+    text-align: center;
+}
+
+#warning.active { display: block; }
+
+#form {
+    display: flex;
+    gap: 32px;
+    width: fit-content;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 2rem;
+}
+
+.habits { margin-top: 50px; }  
+
+.habit {
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
+.days { 
+    min-height: 100%; 
+    display: flex;
+    gap: 1.5rem;
+}
+
+.day div { color: #A1A1AA; }
+
+.day input {
+    appearance: none;
+    width: 64px;
+    height: 64px;
+    border: 2px solid #27272A;
+    border-radius: 8px;
+    background: #18181B;
+}
+
+.day input:checked {
+    background: #8B5CF6;
+    border-color: #A78BFA;
+
+}
+
+/* From tablet portait viewports fowards */
+@media (min-width: 600px) {
+    .header-button-txt { display: block; }
+}
+
+/* From Desktop viewports */
+@media (min-width: 1200px) {
+    /* #form { width: 65%; } */
+    #header { width: 65%; }
+}

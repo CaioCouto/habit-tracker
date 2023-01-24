@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Local styles -->
+    <link rel="stylesheet" href="static/css/normalize.css">
+    <link rel="stylesheet" href="static/css/index.css">
+    
+    <title>Habit Tracker</title>
+</head>
+<body>
+    <header id="header">
+        <img src="static/img/habits-logo.svg" alt="A dashed line with purple gradient over the word Habit">
+        <button class="header-button">
+            <img src="static/img/plus.svg" alt="A purple plu icon">
+            <h4 class="header-button-txt">Registrar meu dia</h4>
+        </button>
+    </header>
+
+    <h3 id="warning">O dia de hoje já foi mapeado! Mas lembre-se de voltar amanhã, ok? :)</h3>
+
+    <form id="form">
+        <section class="form-section habits">
+            <div class="habit" data-name="run">🏃🏽‍♂️</div>
+            <div class="habit" data-name="water">💧</div>
+            <div class="habit" data-name="food">🍎</div>
+            <div class="habit" data-name="workout">💪🏻</div>
+            <div class="habit" data-name="takepills">💊</div>
+        </section>
+        
+        <section class="days"></section>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
