@@ -3,7 +3,7 @@
 <p align=center>Projeto feito baseado na NLW Setup, promovida pela <strong><i>Rocketseat</i></strong>.
 
 ---
-<img src="habit-tracker.png" alt="Screenshot da página do projeto.">
+<img src=".github/habit-tracker.png" alt="Screenshot da página do projeto.">
 ---
 
 ### Tecnologias utilizadas
