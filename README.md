@@ -1,0 +1,14 @@
+
+<h1 align=center>Habit Tracker</h1>
+<p align=center>Projeto feito baseado na NLW Setup, promovida pela <strong><i>Rocketseat</i></strong>.
+
+----------
+
+### Tecnologias utilizadas
+
+Para este projeto, foram utilizadas as seguintes tecnologias:
+* HTML
+* CSS
+* JS (vanilla)
+
+O *template* para este projeto pode ser encontrado <a href="https://www.figma.com/file/3esHAQMFvP3zNrRGdOe0v8/Habits-(e)-(Community)?node-id=75%3A567&t=Nrsg2BcEBmvp4Qed-0">clicando aqui.</a>
