@@ -2,7 +2,9 @@
 <h1 align=center>Habit Tracker</h1>
 <p align=center>Projeto feito baseado na NLW Setup, promovida pela <strong><i>Rocketseat</i></strong>.
 
-----------
+---
+<img src="habit-tracker.png" alt="Screenshot da página do projeto.">
+---
 
 ### Tecnologias utilizadas
 
