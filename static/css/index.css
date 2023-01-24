@@ -14,7 +14,8 @@ body {
     align-items: center;
 }
 
-.header-button {
+.header-button,
+.clear-button {
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -26,7 +27,7 @@ body {
     background: none;
 }
 
-.header-button:hover { cursor: pointer; }
+.header-button:hover, .clear-button:hover { cursor: pointer; }
 
 .header-button-txt { 
     margin: 0;
@@ -43,11 +44,15 @@ body {
 #warning.active { display: block; }
 
 #form {
-    display: flex;
+    display: none;
     gap: 32px;
     width: fit-content;
-    margin: auto;
+    margin: 0 auto 1rem;
     padding: 0 1rem;
+}
+
+#form.active {
+    display: flex;
 }
 
 .form-section {
@@ -88,6 +93,21 @@ body {
 
 }
 
+#clear { 
+    display: none;
+    width: 90%; 
+    margin: 0 auto;
+}
+
+#clear.active { 
+    display: block;
+}
+
+.clear-button-txt { 
+    margin: 0;
+    color: #fff;
+}
+
 /* From tablet portait viewports fowards */
 @media (min-width: 600px) {
     .header-button-txt { display: block; }
@@ -95,6 +115,5 @@ body {
 
 /* From Desktop viewports */
 @media (min-width: 1200px) {
-    /* #form { width: 65%; } */
-    #header { width: 65%; }
+    #header, #clear { width: 65%; }
 }
